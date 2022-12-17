@@ -1,0 +1,115 @@
+body{
+    margin: 1px;
+}
+.home{
+/*   background-image: url('images/gunners2.jpeg'); */
+}    
+
+.nav{
+background-color: rgb(187, 27, 43);
+    overflow: hidden;
+}
+.nav a{
+float:left;
+color:white ;
+text-align: center;
+padding: 15px 15px;
+text-decoration: none;
+font-size: 18px;
+}
+.nav a:hover{
+    background-color: #faf4f4;
+    color: rgb(18, 18, 18);
+}
+.nav a:active{
+    background-color: white;
+    color: brown;
+}
+main{
+   display: grid;
+ grid-template-rows: a b c
+ c d e;
+   align-items: center;
+   justify-content: center;
+}
+
+/* team */
+.team{
+    background-color: rgb(245, 112, 119);
+}
+body{
+    margin:0;
+    padding:0;
+}
+.first_section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    max-width: 100%;
+}
+.second_section {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    max-width: 100%;
+}
+.box-1{
+    width: 25%;
+    margin: 4px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.box-2{
+    width: 25%;
+    margin: 4px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.box-3{
+    width: 25%;
+    margin: 4px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.box-4{
+    width: 25%;
+    margin: 4px;
+    text-align: center;
+    border-radius: 3px;
+}
+.box-5{
+    width: 25%;
+    margin: 4px;
+    border-radius: 3px;
+}
+
+.box-6{
+    width: 25%;
+    margin: 4px;
+    border-radius: 3px;
+}
+
+.box-7{
+    width: 25%;
+    margin: 4px;
+    border-radius: 3px;
+}
+
+.box-8{
+    width: 25%;
+    margin: 4px;
+    border-radius: 3px;
+}
+.juve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 5%;
+}
